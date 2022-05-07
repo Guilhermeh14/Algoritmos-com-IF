@@ -1,0 +1,9 @@
+
+var num1 = parseInt(    prompt("Digite o Primeiro Número"));
+var num2 = parseInt(    prompt("Digite o Segundo Número"));
+
+if (num1 % num2 == 0) {
+    alert("Os numeros são multiplos")
+} else {
+    alert("Os numeros não são multiplos")
+};

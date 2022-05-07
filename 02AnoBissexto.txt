@@ -1,0 +1,12 @@
+
+var Ano = parseInt(    prompt("digite um Ano"));
+
+if (Ano% 4 != 0) {
+    alert("o ano não é bissexto")
+} else if (Ano% 4 == 0 && Ano% 100 != 0) {
+    alert("o ano é bissexto")
+} else if (Ano% 4 == 0 && Ano% 100 == 0 && Ano% 400 == 0) {
+    alert("o ano é bissexto")
+} else {
+    alert("o ano não é bissexto")
+};

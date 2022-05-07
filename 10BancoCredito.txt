@@ -1,0 +1,18 @@
+var SaldoAno = parseFloat(    prompt("Digite o saldo Médio do cliente no ultimo Ano"));
+
+var Porcent20 = (20  / 100) ;
+var Porcent30 = (30 / 100) ;
+var Porcent40 = (40 / 100) ;
+var Valorcereber20 = SaldoAno * Porcent20;
+var Valorcereber30 = SaldoAno * Porcent30;
+var Valorcereber40 = SaldoAno * Porcent40;
+
+if (SaldoAno >= 0 && SaldoAno <=200) {
+    alert ("você não tem credito a receber")
+} else if (SaldoAno > 200 && SaldoAno <= 400) {
+    alert ("O valor do seu saldo médio é de " + SaldoAno + " reais e você tem a receber " + Valorcereber20.toFixed(2) + " reais de crédito")
+} else if (SaldoAno > 400 && SaldoAno <= 600) {
+    alert ("O valor do seu saldo médio é de " + SaldoAno + " reais e você tem a receber " + Valorcereber30.toFixed(2) + " reais de crédito")
+} else if (SaldoAno > 600) {
+    alert  ("O valor do seu saldo médio é de " + SaldoAno + " reais e você tem a receber " + Valorcereber40.toFixed(2) + " reais de crédito")
+};

@@ -1,0 +1,16 @@
+
+var Idade = parseInt(    prompt("digite sua idade para saber sua categoria"));
+
+if (Idade >= 5 && Idade <= 7) {
+    alert("Infantil A")
+} else if (Idade > 7 && Idade <= 10) {
+    alert("Infantil B")
+} else if (Idade > 10 && Idade <= 13) {
+    alert("Juvenil A")
+} else if (Idade > 13 && Idade <= 17) {
+    alert("Juvenil B")
+} else if (Idade >= 18) {
+    alert("Adulto")
+} else {
+    alert("A idade nao corresponde a nenhuma categoria")
+};

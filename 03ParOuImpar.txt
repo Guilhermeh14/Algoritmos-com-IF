@@ -1,0 +1,7 @@
+var num1 = parseInt(    prompt("Digite um numero"));
+
+if (num1% 2 == 0) {
+    alert("O numero digitado é Par")
+} else {
+    alert("O numero digitado é impar")
+};

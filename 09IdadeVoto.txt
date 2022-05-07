@@ -1,0 +1,12 @@
+var Anonasc = parseInt(    prompt("Ano de nascimento"));
+
+var idade = 2022 - Anonasc;
+
+if (idade >= 18 && idade <= 70 ) {
+    alert("você tem " + idade + " anos e é obrigado a votar")    
+} else if (idade >=16 && idade <18 || idade >70 ) {
+    alert("você tem " + idade + " anos e pode votar, mas não é obrigado")
+} else {
+    alert("você tem " + idade + " anos e não pode votar")
+}
+

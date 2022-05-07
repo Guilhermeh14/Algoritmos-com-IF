@@ -1,0 +1,17 @@
+var num1 = parseInt(    prompt("Digite o Primeiro Número"));
+var num2 = parseInt(    prompt("Digite o Segundo Número"));
+var num3 = parseInt(    prompt("Digite o Terceiro Número"));
+
+if (num1 > num2 && num1 > num3) {
+    alert("o maior numero é " + num1)
+} else if (num2 > num1 && num2 > num3) {
+    alert("O maior numero é " + num2)
+} else if (num3 > num2 && num3 > num1) {
+    alert("o maior numero é " + num3)
+} else {
+    alert("Os numeros são iguais")
+};
+
+
+
+

@@ -1,0 +1,17 @@
+var Nota1 = parseFloat(    prompt("digite a nota da primeira prova 1"));
+var Nota2 = parseFloat(    prompt("digite a nota da segunda prova 2"));
+var Nota3 = parseFloat(    prompt("digite a nota da terceira prova 3"));
+
+var PesoNota1 = Nota1  * 4 
+var PesoNota2 = Nota2  * 3 
+var PesoNota3 = Nota3  * 3
+var TotalNota = (PesoNota1 + PesoNota3 + PesoNota2) /10 ;
+
+alert ("sua nota geral é " + TotalNota.toFixed(2));
+
+if (TotalNota >= 7 ) {
+    alert ("você foi aprovado")
+} else if (TotalNota  < 5 ) {
+    alert("você foi reprovado")
+} else 
+    alert("você esta de recuperaçao");
